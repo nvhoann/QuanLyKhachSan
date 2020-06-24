@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Hướng dẫn:
+
+1, Đăng nhập:
+- Nhập tài khoản và mật khẩu
+- Đăng nhập và sử dụng theo nhu cầu
+
+
+2,Khách hàng: thực hiện thao tác đặt phòng cho khách hàng .
+-Quản trị viên nhập thông tin vào mục đặt phòng ,tiếp theo tìm đến tên khách hàng trong mục danh sách khách hàng , sau đó nhấn nút Đăng kí để thực hiện đăng kí phòng cho khách hàng
+-Nếu là khách hàng mới thì thực hiện thêm mới thông tin khách hàng.
++Thêm mới : chọn nút thêm , tiếp theo nhập dữ liệu khách hàng vào các trường trong mục thông tin khách hàng , sau đó chọn nút lưu để lưu thông tin khách hàng
++Sửa : chọn nút sửa , tiếp theo thay đổi các thông tin mong muốn , sau đó chọn nút lưu để lưu thông tin khách hàng.
++Xóa: chọn thông tin khách hàng muốn xóa trong mục danh sách khách hàng , sau đó chọn nút xóa để xóa thông tin khách hàng.
+
+3,Danh sách đặt phòng : hiển thị các đơn đặt hàng chưa được xác nhận .
+-Làm mới : chọn nút làm mới để refresh danh sách.
+-Xác nhận : chọn nút xác nhận để xác nhận khách đã đến nhận phòng
+-Hủy xác nhận:  khi đã quá thời gian hẹn mà khách chưa đến nhận phòng  , chọn nút hủy xác nhận để hủy đơn đặt phòng
+
+4,Dịch vụ: hiển thị thông tin các khách hàng đang ở khách sạn và các dịch vụ của khách sạn. Cho phép lưu trữ ,hiển thị thông tin về các dịch vụ mà khách hàng đã sử dụng.
+-Thêm mới dịch vụ : chọn thông tin khách hàng trên bảng thông tin khách hàng  , chọn dịch vụ và số lượng , sau đó chọn nút Thêm . 
+-Thanh toán : hiển thị các dịch vụ khách hàng đã sử dụng và chi phí phải trả	 
+
+5,Phòng : gồm thông tin phòng và các vật dụng trong phòng 
+-Phòng: chứa thông tin về các phòng  khách sạn . Cho phép thay đổi 1 số thông tin phòng.
+-Vật dụng trong phòng : chứa thông tin về các vật dụng của mỗi phòng .
++Thêm : cho phép thêm vật dụng , chọn phòng muốn thêm ,chọn nút thêm,  chọn vật dụng và số lượng , sau đó chọn lưu .
++Sửa: cho phép sửa số lượng của vật dụng trong phòng , chọn nút sửa , chọn vật dụng và thay đổi số lượng , sau đó chọn nút cập nhật.
++Xóa : cho phép xóa vật dụng trong phòng , chọn vật dụng muốn xóa sau đó chọn nút xóa.
+
+
+
+</value>
+  </data>
+</root>
